@@ -2,9 +2,22 @@
 
 This repo contains the toolchain required to build [Canary](https://github.com/NeoGenio/Canary).
 
+## Requirements
+
+* A C/C++ compiler
+* Make
+* Bison
+* Flex
+* GMP
+* MPFR
+* MPC
+* Texinfo
+* ISL (optional)
+* CLooG (optional)
+
 ## Building
 
-To build the toolchain, simply run the appropriate shell script from the project root directory.
+To build the toolchain, simply run the appropriate shell script from this repo's root directory.
 
 ## Usage
 
