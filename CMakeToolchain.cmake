@@ -1,0 +1,7 @@
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR x86_64)
+
+set(TOOLS ${CMAKE_SOURCE_DIR}/toolchain/cross/bin)
+set(CMAKE_C_COMPILER ${TOOLS}/x86_64-elf-gcc)
+set(CMAKE_CXX_COMPILER ${TOOLS}/x86_64-elf-g++)
+set(CMAKE_ASM-ATT_COMPILER ${TOOLS}/x86_64-elf-as)
